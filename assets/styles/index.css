@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 20vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section a{
+    margin-top: 20px;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+section h2{
+    margin-bottom: 20px;
+    color: white;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: orange;
+}
+
+footer {
+    background-color: orange;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+.calltoaction {
+    background-image: url("../images/counterstrike2.jpg");
+    background-size: cover;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    border: 4px solid white;
+    color: black;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    flex-grow: 1;
+    margin: 5px;
+}

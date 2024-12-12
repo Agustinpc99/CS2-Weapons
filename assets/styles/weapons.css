@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjeta{
+    border-color: red;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 40vw;
+    display: inline-block;
+    background-color: orange;
+}
+
+.tarjeta p{
+    font-size: large;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: orange;
+}
+
+footer {
+    background-color: orange;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: white;
+    border: 4px solid white;
+    color: black;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
