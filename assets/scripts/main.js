@@ -3,7 +3,7 @@ let tarjetero = document.querySelector(".tarjetero")
 let tarjetas = ""
 let buscador = document.querySelector(".buscador")
 
-fetch("https://bymykel.github.io/CSGO-API/api/es-MX/skins.json")
+fetch("https://bymykel.com/CSGO-API/api/es-MX/skins.json")
     .then(res => res.json())
     .then(data => {
         console.log(data)
