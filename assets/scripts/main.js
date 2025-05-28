@@ -7,7 +7,6 @@ fetch("https://bymykel.com/CSGO-API/api/es-MX/skins.json")
     .then(res => res.json())
     .then(data => {
         let weapons = data
-        console.log(tarjetero)
         function crearTarjeta(armas){
             let cartas = ""
             for(let arma of armas){
